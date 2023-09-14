@@ -12,7 +12,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const ThemeContext = createContext();
-export const metadata = {
+ const metadata = {
   title: 'Step-up',
   description: 'Step-up into Style',
 }
